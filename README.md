@@ -29,8 +29,12 @@
 - **2014**: Sales increase steadily until June, drop in July, and rise significantly towards the end of the year, peaking in October.
 
 ## Seasonal Patterns and Insights
+
 - **Consistent July Dip**: A notable dip in sales can be observed every July across all years except for 2011. While the exact reasons behind this drop are unclear, it appears to be a seasonal trend influenced by various factors such as market behavior, holidays, or external influences not captured in the dataset.
+
 - **Implications for Business Planning**: Businesses should plan marketing campaigns to boost sales during the mid-year period to counteract the dip. Adjust inventory levels to prevent overstocking during the anticipated low-sales period in July.
+
+- Given the lack of external data (e.g., holidays, weather conditions), the observed dip in July is assumed to be a seasonal trend. This may be influenced by factors like customer behavior during the summer or external market trends not captured within the dataset.
 
 
 <img src="https://github.com/user-attachments/assets/bd11de57-e68e-435e-8467-634d46071982" alt="Sales Performance Chart" width="700"/>
@@ -39,6 +43,13 @@
 ## Forecasting (2015-2016)
 - **Positive Outlook**: The forecasted sales for 2015 and 2016 show a continued upward trend, indicating potential for growth and expansion.
 - **Confidence Interval**: The shaded area around the forecast line highlights the range of potential sales outcomes, allowing for risk management and contingency planning.
+
+## Time Series Decomposition:
+- the time series data was decomposed into three main components:
+  
+ - **Trend:** A steady upward movement was observed over the years, indicating consistent growth in sales.
+ - **Seasonality:** Clear seasonal patterns were observed, particularly a drop in July and a rise during the year-end months (October-December).
+ - **Noise:** Irregular fluctuations, especially the dip in 2013, were observed that couldn’t be explained solely by trend or seasonality.
 
 <img src="https://github.com/user-attachments/assets/d4dd3a96-ab30-4d2c-ab31-17233bbd35a5" alt="Screenshot" width="700">
 
